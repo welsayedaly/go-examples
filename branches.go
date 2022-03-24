@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/AlecAivazis/survey/v2"
 	"os"
 	"os/exec"
 	"strings"
+
+	"github.com/AlecAivazis/survey/v2"
 )
 
 func gitBranch() ([]string, error) {
