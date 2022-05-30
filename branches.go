@@ -82,7 +82,7 @@ func filter(arr []string, predicate func(item string, idx int) bool) []string {
 	return filteredArr
 }
 
-func main() {
+func mainT() {
 	args := os.Args[1:]
 
 	if len(args) > 0 {

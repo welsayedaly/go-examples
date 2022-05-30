@@ -35,7 +35,8 @@ func parseDateWithTimeZone() {
 	}
 	fmt.Println(t)
 }
-func mainTT() {
+func mainD() {
+	gitBranch()
 	formatDate()
 	parseDate()
 	parseDateWithTimeZone()
